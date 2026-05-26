@@ -64,17 +64,17 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
-  gap: 44px;
+  grid-template-columns: minmax(340px, 1.15fr) minmax(300px, 0.85fr);
+  gap: clamp(32px, 5vw, 70px);
   align-items: center;
   max-width: 1160px;
-  min-height: 520px;
+  min-height: 560px;
   margin: 0 auto;
-  padding: 54px 22px 72px;
+  padding: 48px 22px 70px;
 }
 
 .hero-copy {
-  max-width: 720px;
+  max-width: 500px;
 }
 
 .eyebrow {
@@ -94,24 +94,25 @@ p {
 }
 
 h1 {
-  max-width: 780px;
+  max-width: 540px;
   margin: 0;
-  font-size: clamp(2.4rem, 7vw, 5.9rem);
-  line-height: 0.96;
+  font-size: clamp(2.6rem, 5vw, 4.8rem);
+  line-height: 1;
   letter-spacing: 0;
 }
 
 .hero p:last-child {
-  max-width: 620px;
-  margin: 24px 0 0;
+  max-width: 500px;
+  margin: 22px 0 0;
   color: #43504a;
-  font-size: 1.18rem;
-  line-height: 1.65;
+  font-size: clamp(1rem, 1.35vw, 1.16rem);
+  line-height: 1.72;
 }
 
 .hero-art {
   position: relative;
-  min-height: 420px;
+  order: -1;
+  min-height: clamp(330px, 42vw, 430px);
   border-radius: 8px;
   overflow: hidden;
   background:
@@ -482,6 +483,12 @@ td {
   .hero {
     min-height: 0;
     padding-top: 34px;
+  }
+
+  .hero-copy,
+  .hero-copy h1,
+  .hero-copy p:last-child {
+    max-width: 680px;
   }
 
   .hero-art {
