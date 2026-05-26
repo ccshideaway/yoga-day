@@ -98,7 +98,7 @@ function withCounts(classes, bookings) {
       remaining: Math.max(session.capacity - confirmed, 0),
       isFull: confirmed >= session.capacity
     };
-  });
+  }).sort((a, b) => a.time.localeCompare(b.time) || a.title.localeCompare(b.title));
 }
 
 async function notifyStaff(booking, session) {
