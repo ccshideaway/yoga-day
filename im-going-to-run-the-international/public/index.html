@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>International Yoga Day Reservations</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="topbar" aria-label="Main navigation">
+        <a class="brand" href="/">International Yoga Day</a>
+        <a class="staff-link" href="/admin.html">Staff</a>
+      </nav>
+      <section class="hero">
+        <div class="hero-art" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">21 June · Free classes and workshops</p>
+          <h1>Reserve your place for International Yoga Day</h1>
+          <p>Choose a session, add your details, and we will save your space. When a class is full, you can still join the waiting list.</p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="schedule-header">
+        <div>
+          <p class="eyebrow">Schedule</p>
+          <h2>Classes and workshops</h2>
+        </div>
+        <p>All sessions are free for guests. Places are limited for most classes.</p>
+      </section>
+
+      <section id="sessions" class="sessions" aria-live="polite"></section>
+    </main>
+
+    <dialog id="bookingDialog" class="dialog">
+      <form id="bookingForm" method="dialog" class="dialog-panel">
+        <button class="icon-button close-button" type="button" aria-label="Close reservation form">×</button>
+        <p id="dialogMeta" class="eyebrow"></p>
+        <h2 id="dialogTitle">Reserve your place</h2>
+        <p id="dialogDescription"></p>
+
+        <input type="hidden" name="sessionId">
+        <label>
+          Full name
+          <input name="name" autocomplete="name" required>
+        </label>
+        <label>
+          Email
+          <input name="email" type="email" autocomplete="email" required>
+        </label>
+        <label>
+          WhatsApp / mobile number
+          <input name="phone" autocomplete="tel" required>
+        </label>
+        <p id="formMessage" class="form-message" role="status"></p>
+        <button class="primary-button" type="submit">Reserve</button>
+      </form>
+    </dialog>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

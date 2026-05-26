@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Yoga practice illustration</title>
+  <desc id="desc">A peaceful yoga figure in a garden studio setting.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dceaf1"/>
+      <stop offset="1" stop-color="#f7e7cf"/>
+    </linearGradient>
+    <linearGradient id="mat" x1="0" x2="1">
+      <stop offset="0" stop-color="#3d755b"/>
+      <stop offset="1" stop-color="#244b3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#sky)"/>
+  <circle cx="704" cy="180" r="96" fill="#f4bd69" opacity=".9"/>
+  <path d="M0 762c132-92 252-126 360-102 126 28 196 124 332 110 76-8 144-47 208-104v434H0Z" fill="#d7e4cf"/>
+  <path d="M0 836c132-60 272-72 420-36 132 32 292 28 480-72v372H0Z" fill="#b9d0b8"/>
+  <path d="M88 304c78 58 152 58 222 0 78 54 156 54 234 0 80 58 164 58 252 0" fill="none" stroke="#fffdf8" stroke-width="12" stroke-linecap="round" opacity=".72"/>
+  <ellipse cx="450" cy="810" rx="292" ry="48" fill="url(#mat)"/>
+  <circle cx="452" cy="382" r="58" fill="#8f503f"/>
+  <path d="M410 438c36 34 74 34 114 0 24 70 24 144 0 222-36 18-74 18-114 0-22-78-22-152 0-222Z" fill="#c9634b"/>
+  <path d="M408 482c-82 22-144 72-186 150" fill="none" stroke="#8f503f" stroke-width="42" stroke-linecap="round"/>
+  <path d="M526 482c82 22 144 72 186 150" fill="none" stroke="#8f503f" stroke-width="42" stroke-linecap="round"/>
+  <path d="M416 646c-70 42-132 96-186 162" fill="none" stroke="#8f503f" stroke-width="44" stroke-linecap="round"/>
+  <path d="M518 646c70 42 132 96 186 162" fill="none" stroke="#8f503f" stroke-width="44" stroke-linecap="round"/>
+  <path d="M212 632c-34 20-70 28-108 24M728 632c34 20 70 28 108 24M230 808c-42 18-84 22-126 12M704 808c42 18 84 22 126 12" fill="none" stroke="#6e3f34" stroke-width="24" stroke-linecap="round"/>
+  <path d="M160 176c-22 56-26 114-12 174M222 164c-16 62-12 122 12 180M752 364c-42 48-68 104-78 168M812 374c-48 46-82 100-102 162" fill="none" stroke="#3d755b" stroke-width="18" stroke-linecap="round" opacity=".65"/>
+</svg>

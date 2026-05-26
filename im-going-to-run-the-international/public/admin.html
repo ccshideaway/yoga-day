@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Staff Bookings · International Yoga Day</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="admin-header">
+      <nav class="topbar" aria-label="Main navigation">
+        <a class="brand" href="/">International Yoga Day</a>
+        <a class="staff-link" href="/">Guest page</a>
+      </nav>
+      <section>
+        <p class="eyebrow">Staff access</p>
+        <h1>Bookings and waiting lists</h1>
+      </section>
+    </header>
+
+    <main class="admin-main">
+      <section id="loginPanel" class="login-panel">
+        <form id="loginForm">
+          <label>
+            Staff password
+            <input name="password" type="password" autocomplete="current-password" required>
+          </label>
+          <button class="primary-button" type="submit">Open bookings</button>
+          <p id="loginMessage" class="form-message" role="status"></p>
+        </form>
+      </section>
+
+      <section id="dashboard" class="dashboard" hidden>
+        <div class="toolbar">
+          <label>
+            Filter by session
+            <select id="sessionFilter"></select>
+          </label>
+          <button id="exportButton" class="secondary-button" type="button">Export CSV</button>
+        </div>
+        <div id="summary" class="summary-grid"></div>
+        <div class="table-shell">
+          <table>
+            <thead>
+              <tr>
+                <th>Guest</th>
+                <th>Session</th>
+                <th>Status</th>
+                <th>Contact</th>
+                <th>Booked</th>
+                <th>Update</th>
+              </tr>
+            </thead>
+            <tbody id="bookingsTable"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="/admin.js" type="module"></script>
+  </body>
+</html>
