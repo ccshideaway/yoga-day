@@ -116,7 +116,7 @@ h1 {
   overflow: hidden;
   background:
     linear-gradient(145deg, rgba(36, 75, 59, 0.12), rgba(180, 137, 46, 0.14)),
-    url("/yoga-day.svg") center / cover no-repeat;
+    url("/hero.jpg") center / cover no-repeat;
   box-shadow: var(--shadow);
 }
 

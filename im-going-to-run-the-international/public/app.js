@@ -31,12 +31,12 @@ function renderSessions() {
         <div class="session-content">
           <p class="eyebrow">${escapeHtml(session.type)}</p>
           <h3>${escapeHtml(session.title)}</h3>
+          <p class="session-description">${escapeHtml(session.description)}</p>
           <p class="session-meta">${escapeHtml(session.teacher)} · ${escapeHtml(session.location)}</p>
           <div class="tag-row">
             <span class="tag">${escapeHtml(session.level)}</span>
             <span class="tag">${escapeHtml(capacity)}</span>
           </div>
-          <p class="session-description">${escapeHtml(session.description)}</p>
           <button class="${buttonClass}" data-session="${escapeHtml(session.id)}" type="button">${buttonLabel}</button>
         </div>
       </article>
