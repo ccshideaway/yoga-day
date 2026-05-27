@@ -6,7 +6,7 @@
     "title": "Japa Meditation",
     "teacher": "Dev",
     "location": "Upper Rooftop",
-    "capacity": 24,
+    "capacity": 16,
     "type": "Class",
     "level": "All levels",
     "description": "A calming mantra meditation practice using repetition to quiet the mind and deepen awareness."
@@ -18,7 +18,7 @@
     "title": "Partner Yoga",
     "teacher": "Bam",
     "location": "Upper Rooftop",
-    "capacity": 24,
+    "capacity": 20,
     "type": "Class",
     "level": "All levels",
     "description": "Connect through playful partner stretches, balance, trust, and shared movement."
@@ -30,7 +30,7 @@
     "title": "Yogalatte: Yoga & Pilates",
     "teacher": "Sarah",
     "location": "Lower Rooftop",
-    "capacity": 14,
+    "capacity": 12,
     "type": "Class",
     "level": "All levels",
     "description": "A dynamic fusion of yoga flow, pilates strength, and mindful core training."
@@ -42,7 +42,7 @@
     "title": "Geometry Mandala",
     "teacher": "Ommi",
     "location": "Andaman Yoga Academy",
-    "capacity": 8,
+    "capacity": 6,
     "type": "Workshop",
     "level": "All levels",
     "description": "Create crystal mandalas inspired by sacred geometry for focus, balance, and creativity."
@@ -54,7 +54,7 @@
     "title": "Qi Gong",
     "teacher": "Stefanie",
     "location": "Lower Rooftop",
-    "capacity": 14,
+    "capacity": 10,
     "type": "Class",
     "level": "All levels",
     "description": "Gentle flowing movements and breathwork to cultivate energy, vitality, and inner calm."
@@ -66,7 +66,7 @@
     "title": "Mindful Play",
     "teacher": "Dev",
     "location": "Upper Rooftop",
-    "capacity": 16,
+    "capacity": 20,
     "type": "Class",
     "level": "All levels",
     "description": "Interactive games and creative exercises designed to awaken joy, presence, and connection."
@@ -78,7 +78,7 @@
     "title": "Aqua Yoga",
     "teacher": "Sarah",
     "location": "Outdoor Pool",
-    "capacity": 16,
+    "capacity": 6,
     "type": "Class",
     "level": "All levels",
     "description": "A refreshing water-based yoga practice that improves mobility, balance, and relaxation with gentle support from the water."
@@ -90,7 +90,7 @@
     "title": "Intro to Sound Healing",
     "teacher": "Cristina",
     "location": "Andaman Yoga Academy",
-    "capacity": 12,
+    "capacity": 5,
     "type": "Workshop",
     "level": "All levels",
     "description": "Discover the basics of sound healing through vibration, Tibetan bowls, and mindful listening."
@@ -102,7 +102,7 @@
     "title": "Yoga Beyond Mat",
     "teacher": "Stefanie",
     "location": "Lower Rooftop",
-    "capacity": 14,
+    "capacity": 12,
     "type": "Workshop",
     "level": "All levels",
     "description": "Explore how yogic wisdom can support balance, awareness, and everyday life."
@@ -114,7 +114,7 @@
     "title": "Ashtanga Yoga",
     "teacher": "Dev",
     "location": "Upper Rooftop",
-    "capacity": 24,
+    "capacity": 20,
     "type": "Class",
     "level": "Intermediate/Advanced Level",
     "description": "A structured and energizing yoga practice combining breath, movement, and flowing sequences."
@@ -138,7 +138,7 @@
     "title": "Sound Bath",
     "teacher": "Cristina",
     "location": "Andaman Yoga Academy",
-    "capacity": 12,
+    "capacity": 14,
     "type": "Class",
     "level": "All levels",
     "description": "Immerse yourself in soothing healing sounds and vibrations for deep relaxation and meditation."
